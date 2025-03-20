@@ -1,0 +1,168 @@
+#navbar{
+    display: flex; 
+   justify-content: center; 
+   position: fixed; 
+   top: 0; 
+   width: 100%; 
+   background-color: white; 
+   padding: 20px 0; 
+   font-size: 25px; 
+   border-bottom: 1px solid; 
+  
+  }
+  .nav-links{
+    display: flex; 
+    list-style: none; 
+    font-family: Metrophobic; 
+  }
+  *{
+    margin: 0; 
+    scroll-behavior: smooth; 
+  }
+  body{
+     
+    text-align: center; 
+  
+  }
+  
+  .nav-links a {
+    text-decoration: none; 
+    color: #AA2020; 
+     padding: 0 15px; 
+  }
+  .nav-links a:hover{
+    text-decoration: underline; 
+  }
+  section{
+    min-height: 100vh; 
+    padding: 70px 0; 
+  }
+  
+  #welcome-section{
+    background-color: black; 
+    display: flex; 
+    flex-direction: column; 
+  }
+  h1{
+    font-family: "Libre Barcode 128 Text", sans-serif; 
+    color: #AA2020; 
+    font-size: 80px; 
+  }
+  
+  #welcome-section h1{
+    margin-top: 30vh; 
+  }
+  .divider{
+    border-bottom: 2px solid #AA2020; 
+  }
+  #bio{
+    text-align: left; 
+    margin: auto; 
+    width: 650px; 
+    font-size: 20px; 
+    font-family: Metrophobic;
+    padding: 20px; 
+  }
+  #portrait{
+    
+    padding: 70px; 
+  }
+  
+  #projects .project-tile{
+   
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;  
+    border-radius: 5px;
+     background-color: black; 
+    min-height: 300px;  
+    text-decoration: none; 
+  
+  }
+  
+  #projects .project-tile p{
+  font-size: 25px; 
+  padding: 10px; 
+  color: white; 
+  font-family: Metrophobic;
+  }
+  
+  #projects .project-tile img{
+    object-fit: center;
+    width: 100%; 
+    height: 300px; 
+  }
+  
+  #projects .projects{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    place-items: center;
+    max-width: 1200px; 
+    margin: auto;
+  }
+  
+  #projects .project-tile span{
+  opacity: 0%;
+  padding: 0 5px; 
+  }
+  
+  #projects .project-tile:hover span{
+  opacity: 100%; 
+  color: #AA2020; 
+  transition: 0.2s ease in; 
+  }
+  .show-all{
+    padding-top: 50px; 
+    text-decoration: none; 
+    margin: auto;
+    font-family: Metrophobic;
+    display: flex; 
+    width: max-content; 
+    align-items: center; 
+    padding: 0px 15px; 
+    background-color: black; 
+    color: white; 
+    font-size: 25px; 
+    border-radius: 5px; 
+    cursor: pointer;  
+    transition: 0.2s ease-in; 
+  }
+  .show-all:hover{
+    background-color: #AA2020;
+  }
+  #contact .social-medias{
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: auto; 
+    
+  }
+  
+  #contact .social-media{
+    font-family:  Metrophobic;
+    width: 100px; 
+    text-decoration: none;  
+    color: black; 
+    transition: transform 0.2s ease-in; 
+    display: flex; 
+    align-items: center;
+    margin: 20px; 
+    font-size: 22px; 
+  }
+  #contact .social-media:hover{
+    transform: translateY(10px);
+  }
+  footer{
+    font-family:  Metrophobic;
+    font-size: 25px; 
+    padding: 30px; 
+  }
+  @media only screen and (width < 700px){
+    font-size: 50px; 
+  }
+  
